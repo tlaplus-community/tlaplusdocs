@@ -46,7 +46,7 @@ TLA+ has a number of built-in operators defined for sets:
  * ``e \in S`` for checking whether an element ``e`` is a member of set ``S``
  * ``e \notin S`` for checking whether an element ``e`` is *not* a member of set ``S``
  * ``S \cup T`` evaluates to the union of ``S`` and ``T``
- * ``S \cap T`` evaluates to the conjunction of ``S`` and ``T``
+ * ``S \cap T`` evaluates to the intersection of ``S`` and ``T``
  * ``S \subseteq T`` checks whether ``S`` is a subset of ``T``
  * ``S \ T`` evaluates to the set of all elements in ``S`` that are not in ``T``
  * ``SUBSET S`` is the set of all subsets of ``S``, also called the power set
